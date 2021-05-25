@@ -46,7 +46,7 @@ class _VirtualCreditCardState extends State<VirtualCreditCard> {
       decoration: widget.showShadow
           ? BoxDecoration(
               color: widget.backgroundColor.withOpacity(0.1),
-              borderRadius: BorderRadius.circular(10),
+              borderRadius: BorderRadius.circular(20),
               boxShadow: <BoxShadow>[
                 BoxShadow(
                   color: widget.backgroundColor.withOpacity(0.1),
@@ -63,11 +63,10 @@ class _VirtualCreditCardState extends State<VirtualCreditCard> {
       child: Container(
         decoration: BoxDecoration(
           color: widget.backgroundColor,
-          borderRadius: BorderRadius.circular(10),
+          borderRadius: BorderRadius.circular(20),
         ),
-        height: MediaQuery.of(context).size.width / 2,
-        width: MediaQuery.of(context).size.width - 60,
-        padding: EdgeInsets.all(10),
+        width: MediaQuery.of(context).size.width,
+        padding: EdgeInsets.all(20),
         child: Column(
           children: [
             Align(
