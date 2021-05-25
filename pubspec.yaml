@@ -1,6 +1,6 @@
 name: virtualcreditcard
-description: Virtual Credit Card Widget
-version: 0.0.2
+description: Virtual Credit Card Widget support multiple credit & debit cards preview with the cart type detection.
+version: 0.0.3
 homepage: https://github.com/devsigofficial/virtualcreditcard.git
 issue_tracker: https://github.com/devsigofficial/virtualcreditcard/issues
 
