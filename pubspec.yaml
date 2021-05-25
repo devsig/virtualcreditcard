@@ -3,9 +3,6 @@ description: Virtual Credit Card Widget
 version: 0.0.1
 homepage: https://github.com/devsigofficial/virtualcreditcard.git
 issue_tracker: https://github.com/devsigofficial/virtualcreditcard/issues
-authors:
-  - Devsig Technologies Pvt Ltd<admin@devisg.com>
-  - Bholendra Singh<bholendraofficial@gmail.com>
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
